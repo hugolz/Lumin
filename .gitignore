@@ -1,4 +1,5 @@
 /target
+/downloads
 /research
 *log.*
 **/*.log
