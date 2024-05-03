@@ -70,7 +70,7 @@ impl Wallpaper {
                 ))?;
 
         let mpv_path = mpv_dir().ok_or(crate::error::PlayerError::Verification(
-            "Could not get find mpv".to_string(),
+            "Could not find mpv".to_string(),
         ))?;
 
         let pretty_mpv_path = mpv_path
